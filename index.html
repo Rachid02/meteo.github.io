@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meteo">
+    <title>Meteo</title>
+    <link rel="icon" href="./src/img/solDessin/sol.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="largeD">
+            <div>
+                <!-- <video src="./src/video/terre/TERRE_REALISTE.mp4" alt="illustration 3D de la Terre"></video> -->
+                <label for="rechercheVille"></label>
+                <input type="search" id="rechercheVille" name="q" placeholder="Ville&nbsp;?">
+                <button id="aRecherche"><img src="./src/icone/loupe/Search-icon-13.png" alt="illustration de loupe"></button>
+            </div>
+            
+            
+            <div>
+                <p id="ville">ville</p>
+                
+                <p id="climat">climat</p>
+                <p><span id="temp">Température&nbsp;</span></p>  
+            </div> 
+        </div> 
+    </header>
+    <main>
+        <div class="largeD">
+            <p id="tRe">T° ressentie<span id="ressenti"></span></p>
+            <p id="tMa">T° Max&nbsp;<span id="tMax"></span></p>
+            <p id="tMi">T° Min&nbsp;<span id="tMin"></span></p>
+            <p><span id="humidite">Humidité&nbsp;</span></p>
+            <p><span id="windSpeed">Vitesse du vent&nbsp;</span></p>
+        </div> 
+    </main>
+</body>
+</html>

@@ -1,0 +1,66 @@
+*{
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url("/src/img/plage/sky.jpg");
+    background-position:top;
+    font-size: 2rem;
+}
+
+header{
+    margin: 0 auto;
+}
+
+.largeD{
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+button img{
+    width: 13px;
+    height: 13px;
+}
+
+#illustrationClimat{
+    width: 100px; 
+}
+
+// .icone{
+//     width: 30px;
+//     height: 30px;
+//     border-radius: 100%;
+//   }
+
+#ville{
+    color: green;
+}
+
+#temp{
+    color: goldenrod;
+}
+
+#tRe{
+    color: coral;
+}
+
+#tMa{
+    color: red;
+}
+
+#tMi{
+    color: blue;
+}
+
+#humidite{
+    color: darkblue;
+}
+
+#windSpeed{
+    color: grey;
+}
